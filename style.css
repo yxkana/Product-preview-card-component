@@ -1,0 +1,146 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  color: hsl(212, 21%, 14%);
+}
+
+h2 {
+  letter-spacing: 5px;
+  font-size: 1rem;
+}
+
+.preview_card {
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  height: 550px;
+  width: 700px;
+  border-radius: 3%;
+  margin: 10% auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.column1 {
+  width: 50%;
+}
+.column2 {
+  width: 42%;
+  padding: 2% 4%;
+}
+
+.card_picture {
+  height: 100%;
+  width: 100%;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.price_row {
+  display: flex;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+}
+
+.old_price {
+  letter-spacing: normal;
+  text-decoration: line-through;
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+.cart_button {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  padding: 5%;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.img_cart {
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+
+.attribution {
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .preview_card {
+    overflow: hidden;
+    background-color: white;
+    display: block;
+    height: 700px;
+    width: 400px;
+    border-radius: 3%;
+    margin: 10% auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  .card_picture {
+    content: url("images/image-product-mobile.jpg");
+  }
+
+  .column1 {
+    width: 100%;
+    height: 40%;
+  }
+  .column2 {
+    height: 60%;
+    width: auto;
+	padding: 2% 5%;
+  }
+
+  .card_picture {
+    height: 100%;
+    width: 100%;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .cart_button {
+    display: block;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    padding: 5%;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+  }
+
+  h1 {
+    margin: 10px 0;
+  }
+
+  .old_price {
+    letter-spacing: normal;
+    text-decoration: line-through;
+    position: relative;
+    top: 0px;
+    left: 30px;
+  }
+}
