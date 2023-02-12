@@ -1,1 +1,1 @@
-# Product-preview-card-component_challange_chalange_
+# Product-preview-card-component_challange
